@@ -1,0 +1,152 @@
+/* ======= GLOBAL STYLES ======= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #333;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ======= HEADER & NAV ======= */
+h1 {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+u {
+    color: beige;
+}
+
+nav {
+    background-color: skyblue;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ======= IMAGES ======= */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+/* ======= SECTIONS ======= */
+section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* ======= HEADINGS ======= */
+h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: skyblue;
+    margin: 8px auto 20px;
+    border-radius: 2px;
+}
+
+/* ======= PROJECTS ======= */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    margin: 12px 0;
+    color: #4f2d02;
+}
+
+/* ======= TABLE ======= */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffe4ec;
+}
+
+/* ======= FORM ======= */
+form {
+    padding: 20px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 60%;
+}
+
+input, button {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 300px;
+}
+
+button {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
+
+/* ======= BACK TO TOP BUTTON ======= */
+#b1 {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#b1:hover {
+    background-color: deepskyblue;
+}

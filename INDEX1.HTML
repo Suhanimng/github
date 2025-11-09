@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhani's Portfolio</title>
+    <link rel="stylesheet" href="assign_css.css">
+</head>
+<body>
+
+    <header>
+        <h1><u>Suhani Mongra's Profile</u></h1>
+
+        <nav class="navbar">
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contacts.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <p>Hello! I’m <strong>Suhani Mongra</strong> — a passionate learner and creative student.  
+        Welcome to my personal portfolio website where I share my projects, skills, and interests!</p>
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="images/suhani_profile.png" alt="Suhani" height="150">
+        <p>I’m enthusiastic about web development, design, and learning new technologies.  
+        I love building simple yet elegant web pages and experimenting with coding projects in Python.</p>
+    </section>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li><strong>Personal Portfolio:</strong> A one-page website to showcase my bio, skills, and contact info.</li>
+            <li><strong>Even or Odd Checker:</strong> A Python program that determines if a number is even or odd.</li>
+            <li><strong>List Transfer Tool:</strong> A Python app that moves elements between two lists.</li>
+            <li><strong>Value Swapper:</strong> A small program to swap values of two numbers.</li>
+            <li><strong>Mini Calculator:</strong> A Python calculator for basic arithmetic operations.</li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h2>My Skills</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Creative Design</td>
+                    <td>Intermediate</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="/submit.php" method="post">
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" placeholder="Enter Name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="Enter Email" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <button id="b1" type="button" onclick="scrollToTop()">⬆ Back To Top</button>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
